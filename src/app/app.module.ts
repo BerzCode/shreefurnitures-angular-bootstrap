@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { HomeModule } from './home/home.module';
 import { AboutusModule } from './aboutus/aboutus.module';
+import { AuthenticationModule } from './authentication/authentication.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AboutusModule } from './aboutus/aboutus.module';
     AppRoutingModule,
     LayoutModule,
     HomeModule,
-    AboutusModule
+    AboutusModule,
+    AuthenticationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
