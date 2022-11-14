@@ -6,6 +6,8 @@ import { BedroomComfortComponent } from './shop-by-products/bedroom-comfort/bedr
 import { LivingroomBodyComponent } from './shop-by-products/livingroom-body/livingroom-body.component';
 import { CustomizeBodyComponent } from './shop-by-products/customize-body/customize-body.component';
 import { ContactFormComponent } from './contactus/contact-form/contact-form.component';
+import { LoginComponent } from './authentication/login/login.component';
+import { SignupComponent } from './authentication/signup/signup.component';
 
 
 const routes: Routes = [
@@ -17,6 +19,8 @@ title: 'ShreeFurnitures | About us'},
 {path: 'livingroom', component:LivingroomBodyComponent, title: 'ShreeFurnitures | Living room'},
 {path: 'customize', component: CustomizeBodyComponent, title:'ShreeFurnitures | Customize'},
 {path :'contactus', component: ContactFormComponent ,title: 'ShreeFurnitures | Contact us'},
+{path:'login', component:LoginComponent, title:'ShreeFurnitures | Login' },
+{path:'signup', component:SignupComponent, title:'ShreeFurnitures | Sign up' }
 
 
 ];
